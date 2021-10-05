@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+h5 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(99, 179, 216);
+}
+
+h6 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: blue;
+}
+
+h7 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: green;
+}
+
+h8 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: red;
+}
+
+button {
+    padding: 5px 18px;
+    font-size: 1.8;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: rgb(99, 179, 216);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: dimgray
+}
+
+.navbar {
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 25px;
+    color: darkgreen;
+    transition: 0.3s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.nav-item:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.nav-item.active:hover{
+    color: cyan;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding: 0 1px;
+    cursor:pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+@media (max-width: 360px) {
+    nav {
+        background-color: blue;
+    }
+    h1 {
+        font-size: 12px
+    }
+}
+@media (max-width: 640px) {
+    nav {
+        background-color: blue;
+    }
+    h1 {
+        font-size: 12px
+    }
+}
+
+
+#HOME span {
+    color: green
+}
+
+#HOME {
+    background-image: url(HomePic.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no;
+    background-size: cover;
+}
+
+.product img {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no;
+    background-size: cover;
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: red;
+    }
+    
+}
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
